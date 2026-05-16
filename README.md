@@ -12,7 +12,11 @@ This project engineers a Python + SQL data pipeline to ingest, clean, and analyz
 
 ## Dataset
 
-The project uses the **CICIDS2017** dataset (Canadian Institute for Cybersecurity). Raw CSV files are stored in the `data/` directory:
+The project uses the **CICIDS2017** dataset (Canadian Institute for Cybersecurity). 
+
+*(Note: Due to GitHub file size constraints, the raw CSV data directory is excluded from source control via .gitignore and must be acquired separately).* 
+
+Raw CSV files are expected in the `data/` directory:
 
 - `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`
 - `Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv`
@@ -107,5 +111,3 @@ where $\mu$ is the feature mean and $\sigma$ is the standard deviation. Records 
 ## License
 
 This repository is intended for educational and research use. See the CICIDS2017 dataset licensing for data usage restrictions.
-
----
