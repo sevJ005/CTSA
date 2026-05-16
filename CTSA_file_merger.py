@@ -23,8 +23,8 @@ combined_df.replace([np.inf, -np.inf], np.nan, inplace=True)
 combined_df.fillna(combined_df.median(numeric_only=True), inplace=True)
 
 # output 10% only
-sample_df = combined_df.sample(frac=0.1, random_state=42)
-sample_df.to_csv("CTSA_cleaned_sample.csv", index=False)
+sample_df = combined_df.sample(frac=1, random_state=42)
+sample_df.to_csv("CTSA_cleaned_whole.csv", index=False)
 print("Sample created")
 
 

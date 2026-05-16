@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlite3
 
-df = pd.read_csv('CTSA_cleaned_sample.csv')
+df = pd.read_csv('CTSA_cleaned_whole.csv')
 
 # connecting to SQLite database
 connection = sqlite3.connect('cyber_security_logs.db')
